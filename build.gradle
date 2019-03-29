@@ -28,6 +28,7 @@ allprojects {
             archLifecycleVersion = '1.1.1'
         }
     }
+    .addCallback(sRoomDatabaseCallback)
 }
 
 task clean(type: Delete) {
